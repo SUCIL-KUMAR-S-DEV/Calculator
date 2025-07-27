@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Calc</title>
+    <script src="https://kit.fontawesome.com/9fab3baa39.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>CALCULATOR</h3>
+    <div class="container">
+        <input type="text" disabled id="inp"><br>
+        <button onclick="putDisp('1')"><i class="fa-solid fa-1"></i></button>
+        <button onclick="putDisp('2')"><i class="fa-solid fa-2"></i></button>
+        <button onclick="putDisp('3')"><i class="fa-solid fa-3"></i></button>
+        <button onclick="putDisp('+')"><i class="fa-solid fa-plus"></i></button><br>
+        <button onclick="putDisp('4')"><i class="fa-solid fa-4"></i></button>
+        <button onclick="putDisp('5')"><i class="fa-solid fa-5"></i></button>
+        <button onclick="putDisp('6')"><i class="fa-solid fa-6"></i></button>
+        <button onclick="putDisp('-')"><i class="fa-solid fa-minus"></i></button><br>
+        <button onclick="putDisp('7')"><i class="fa-solid fa-7"></i></button>
+        <button onclick="putDisp('8')"><i class="fa-solid fa-8"></i></button>
+        <button onclick="putDisp('9')"><i class="fa-solid fa-9"></i></button>
+        <button onclick="putDisp('*')"><i class="fa-solid fa-xmark"></i></button><br>
+        <button onclick="clrDisp()"><i class="fa-solid fa-delete-left"></i></button>
+        <button onclick="putDisp('0')"><i class="fa-solid fa-0"></i></button>
+        <button onclick="calcnum()"><i class="fa-solid fa-equals"></i></button>
+        <button onclick="putDisp('/')"><i class="fa-solid fa-divide"></i></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
